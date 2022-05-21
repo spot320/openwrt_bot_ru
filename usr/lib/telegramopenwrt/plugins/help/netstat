@@ -1,0 +1,1 @@
+Выводит таблицу "netstat"  в состоянии ESTABLISHED, CLOSED и TIME\_WAIT.

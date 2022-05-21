@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./ctx/service_list "proc_restart" "Выберите службу для перезапуска:" >/dev/null

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+
+./ctx/fw_list "fw_disable" "Выберите правило для отключения:" >/dev/null

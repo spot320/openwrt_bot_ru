@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./ctx/wifi_list "wifi_enable" "Выберите беспроводной передатчик для включения:" >/dev/null
