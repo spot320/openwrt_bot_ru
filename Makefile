@@ -2,10 +2,10 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=telegram-openwrt
 
-PKG_VERSION:=1.0.4
+PKG_VERSION:=1.
 PKG_RELEASE:=1
+SOURCE_DIR:=/home/spotlimux/openwrt/package/openwrt_bot_ru
 
-PKG_LICENSE:=GPL-2.0
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -13,7 +13,7 @@ define Package/telegram-openwrt
   SECTION:=net
   CATEGORY:=Network
   TITLE:=Telegram BOT for openwrt
-  URL:=https://github.com/alexwbaule/telegramopenwrt
+  URL:=https://github.com/spot320/openwrt_bot_ru
   PKGARCH:=all
   TITLE:=Telegram for openwrt BOT
 endef
@@ -22,7 +22,7 @@ define Package/telegram-openwrt/description
   Telegram for use in openwrt. Its a BOT
   that executes selected commands in your router.
   Version: $(PKG_VERSION)-$(PKG_RELEASE)
-  Info   : https://github.com/alexwbaule/telegramopenwrt
+  Info   : https://github.com/spot320/openwrt_bot_ru
 endef
 
 define Package/telegram-openwrt/conffiles
